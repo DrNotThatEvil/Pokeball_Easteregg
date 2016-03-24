@@ -1,0 +1,63 @@
+<!doctype html>
+<html>
+  <head>
+    <style>
+      /* CSS Mini Reset, care of http://www.vcarrer.com/2010/05/css-mini-reset.html */
+      html, body, div, form, fieldset, legend, label { margin: 0; padding: 0; }
+      table { border-collapse: collapse; border-spacing: 0; }
+      th, td { text-align: left; vertical-align: top; }
+      h1, h2, h3, h4, h5, h6, th, td, caption { font-weight:normal; }
+      img { border: 0; }
+
+      /* Some basic stylesheets */
+      * {
+        font-family: 'Press Start 2P', cursive;
+      }
+      .content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        position: absolute;
+        left: 0;
+        top: 0;
+        height: 100%;
+        width: 100%;
+      }
+
+      .center {
+        flex-direction: row;
+        text-align: center;
+      }
+
+      .large {
+        font-size: 4em;
+      }
+
+      .medium {
+        font-size: 2em;
+      }
+
+      .fade {
+        color: lightgray;
+      }
+    </style>
+    <link href='https://fonts.googleapis.com/css?family=Press+Start+2P' rel='stylesheet' type='text/css'>
+    <link href="css/balls.css" rel="stylesheet" type='text/css'>
+  </head>
+  <body>
+    <div class="content">
+      <div class="center">
+        <p class="large player2">
+          Enter the Konami Code
+        </p>
+        <p class="fade medium">
+          U U D D L R L R B A
+        </p>
+      </div>
+    </div>
+    
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+    <script src="js/easteregg.js"></script>
+  </body>
+</html>

@@ -1,0 +1,75 @@
+.pokeball
+{
+    z-index: 999;
+    animation: rotate 1s linear;
+    animation-iteration-count: infinite;
+
+    -webkit-animation: rotate 1s linear; /* Safari and Chrome */
+    -webkit-animation-iteration-count: infinite;
+}
+
+.pokeball2
+{
+    z-index: 999;
+    animation: rotate2 1s linear;
+    animation-iteration-count: infinite;
+
+    -webkit-animation: rotate2 1s linear; /* Safari and Chrome */
+    -webkit-animation-iteration-count: infinite;
+}
+
+@keyframes rotate
+{
+    from {
+        transform:translateY(-23px) translateX(0%) rotate(0deg);
+        -ms-transform:translateY(-23px) translateX(0%) rotate(0deg); /* IE 9 */
+        -webkit-transform:translateY(-23px) translateX(0%) rotate(0deg); /* Safari and Chrome */
+    }
+    to {
+        transform:translateY(-23px) translateX(0%) rotate(360deg);
+        -ms-transform:translateY(-23px) translateX(0%) rotate(360deg); /* IE 9 */
+        -webkit-transform:translateY(-23px) translateX(0%) rotate(360deg); /* Safari and Chrome */
+    }
+}
+
+@keyframes rotate2
+{
+    to {
+        transform:translateY(-23px) translateX(0%) rotate(0deg);
+        -ms-transform:translateY(-23px) translateX(0%) rotate(0deg); /* IE 9 */
+        -webkit-transform:translateY(-23px) translateX(0%) rotate(0deg); /* Safari and Chrome */
+    }
+    from {
+        transform:translateY(-23px) translateX(0%) rotate(360deg);
+        -ms-transform:translateY(-23px) translateX(0%) rotate(360deg); /* IE 9 */
+        -webkit-transform:translateY(-23px) translateX(0%) rotate(360deg); /* Safari and Chrome */
+    }
+}
+
+@-webkit-keyframes rotate
+{
+    from {
+        transform:translateY(-23px) translateX(0%) rotate(0deg);
+        -ms-transform:translateY(-23px) translateX(0%) rotate(0deg); /* IE 9 */
+        -webkit-transform:translateY(-23px) translateX(0%) rotate(0deg); /* Safari and Chrome */
+    }
+    to {
+        transform:translateY(-23px) translateX(0%) rotate(360deg);
+        -ms-transform:translateY(-23px) translateX(0%) rotate(360deg); /* IE 9 */
+        -webkit-transform:translateY(-23px) translateX(0%)rotate(360deg); /* Safari and Chrome */
+    }
+}
+
+@-webkit-keyframes rotate2
+{
+    to {
+        transform:translateY(-23px) translateX(0%) rotate(0deg);
+        -ms-transform:translateY(-23px) translateX(0%) rotate(0deg); /* IE 9 */
+        -webkit-transform:translateY(-23px) translateX(0%) rotate(0deg); /* Safari and Chrome */
+    }
+    from {
+        transform:translateY(-23px) translateX(0%) rotate(360deg);
+        -ms-transform:translateY(-23px) translateX(0%) rotate(360deg); /* IE 9 */
+        -webkit-transform:translateY(-23px) translateX(0%)rotate(360deg); /* Safari and Chrome */
+    }
+}
